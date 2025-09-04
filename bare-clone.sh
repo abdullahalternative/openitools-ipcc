@@ -1,6 +1,6 @@
 # https://stackoverflow.com/questions/23144059/git-clone-ignoring-file
 
-git clone --no-checkout --filter=blob:none https://github.com/openitools/openitools-ipcc.git
+git clone --no-checkout --filter=blob:none https://github.com/abdullahalternative/openitools-ipcc.git
 
 cd openitools-ipcc
 
