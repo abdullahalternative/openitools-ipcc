@@ -20,12 +20,10 @@ jobs:
       - name: Custom clone
         run: |
           curl -L https://github.com/abdullahalternative/openitools-ipcc/raw/refs/heads/main/bare-clone.sh | bash
-      
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v2
 
-     # - name: run
-      #  run: |
-      #    cd openitools-ipcc
-      #    pip install -r requirements.txt 
-      #    python src/main.py -g --min-firmware 10
+
+      - name: run
+        run: |
+          cd openitools-ipcc
+          pip install -r requirements.txt 
+          python src/main.py -g --min-firmware 10
