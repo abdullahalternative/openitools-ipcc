@@ -19,7 +19,7 @@ jobs:
       # If you want to re-clone with special flags:
       - name: Custom clone
         run: |
-          curl -L https://github.com/openitools/openitools-ipcc/raw/refs/heads/main/bare-clone.sh | bash
+          curl -L https://github.com/abdullahalternative/openitools-ipcc/raw/refs/heads/main/bare-clone.sh | bash
 
       - name: run
         run: |
